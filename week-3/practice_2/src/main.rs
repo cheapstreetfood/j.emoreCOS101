@@ -1,5 +1,5 @@
 fn main() {
-    let result = 10;
+    let result:u8 = 10;
     let age:u8 = 20;
     let sum:i8 = 5 - 15;
 
