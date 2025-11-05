@@ -1,0 +1,20 @@
+fn main() {
+    let a:u8 = 20;
+    let b:u8 = 30;
+
+    if(a > 10) && (b > 10) { 
+        println!("true");
+    }
+    let c = 0;
+    let d = 30;
+
+    if(c > 10) || (d > 10) { 
+        println!("true");
+    }
+
+    let is_elder = false;
+
+    if !is_elder { 
+        println!("Not Elder");
+    }
+}
