@@ -1,0 +1,6 @@
+APPENDING MESSAGE !! 
+Hello Class
+This is the appendage to the document.
+
+Here is what the user added to the document:
+Joshua : messageeeee

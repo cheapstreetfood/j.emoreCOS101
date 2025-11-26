@@ -1,0 +1,3 @@
+Welcome to rust!
+This is the welcome message from practice 2.
+Keep going fellow rustacean!
