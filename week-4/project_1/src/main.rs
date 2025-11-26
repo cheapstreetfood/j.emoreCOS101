@@ -18,12 +18,16 @@ fn main() {
     let c:f32 = input3.trim().parse().expect("Not a valid number");
 
     let mut d:f32 = (b*b) - (4.0 * a * c);// discriminant
+   if   a == 0.0  || b == 0.0 || c == 0.0{
+    println!("Error");
+   }else{
+
     if d == 0.0 {
         let sol:f32 = -b/(2.0 * a);
         println!("There is exactly one real root:{}",sol);
     } else if d > 0.0 {
         println!("There are two distinct roots.");
-        let sol1:f32 = (-b + d)/2.0;
+        let sol1ss:f32 = (-b + d)/2.0;
         let sol2:f32 = (-b - d)/2.0; 
         println!("The roots are {} and {}",sol1,sol2);
     }else if d < 0.0 {
@@ -33,9 +37,8 @@ fn main() {
         let sol_im:f32 = d.sqrt() / (2.0 * a);
         println!("First root {} +i {}",sol_real,sol_im);
         println!("\nSecond root {} -i {}",sol_real,sol_im);
-    }else if a == 0.0  ||b == 0.0 || c == 0.0 {
-        print!("Error");
     }else {
         println!("Error");
     }
+}
 }

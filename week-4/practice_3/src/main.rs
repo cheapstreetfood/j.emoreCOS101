@@ -1,5 +1,5 @@
 
-use std::io;
+use std::io; 
 
 fn main() {
     let mut input1 = String::new();

@@ -5,5 +5,5 @@ fn main(){
     let mut file = std::fs::File::open("../code_folders/welcome_message.txt").expect("Failed to read folder");
     let mut contents = String::new();
     file.read_to_string(&mut contents).unwrap();
-    println!("{}",contents);
+    println!("{}",contents);    
 }

@@ -4,6 +4,6 @@ fn main(){
 	let rate = 10;
 	let a = principal * ((1 + (rate/100)) ^ n); 
 	let compound_i  = a - principal;
-	println!("Compund interest is N{}",compound_i);
+	println!("Compound interest is N{}",compound_i);
 
 }

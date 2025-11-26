@@ -1,5 +1,5 @@
 fn main() {
-    let school_string = "School of Science and Technology"; //string type
+    let school_string= "School of Science and Technology"; //string type
     let rating_float:f32 = 5.0;  // float type
     let is_growing_boolean = true; //booleaj type
     let department_integer:u8 = 3;
